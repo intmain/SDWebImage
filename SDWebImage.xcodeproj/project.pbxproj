@@ -189,6 +189,8 @@
 		ABBE71AA18C43B5800B75E91 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBE71A518C43B4D00B75E91 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABBE71AB18C43B6000B75E91 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBE71A618C43B4D00B75E91 /* UIImageView+HighlightedWebCache.m */; };
 		ABBE71AC18C43B6000B75E91 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBE71A618C43B4D00B75E91 /* UIImageView+HighlightedWebCache.m */; };
+		D7980AFE1D5ACC4E00D2E6D7 /* SDWebImageDownloader+Authkey.h in Headers */ = {isa = PBXBuildFile; fileRef = D7980AFC1D5ACC4E00D2E6D7 /* SDWebImageDownloader+Authkey.h */; };
+		D7980AFF1D5ACC4E00D2E6D7 /* SDWebImageDownloader+Authkey.m in Sources */ = {isa = PBXBuildFile; fileRef = D7980AFD1D5ACC4E00D2E6D7 /* SDWebImageDownloader+Authkey.m */; };
 		DA577CFC1998E60B007367ED /* alpha_processing.c in Sources */ = {isa = PBXBuildFile; fileRef = DA577C661998E60B007367ED /* alpha_processing.c */; };
 		DA577CFD1998E60B007367ED /* cpu.c in Sources */ = {isa = PBXBuildFile; fileRef = DA577C671998E60B007367ED /* cpu.c */; };
 		DA577CFE1998E60B007367ED /* dec.c in Sources */ = {isa = PBXBuildFile; fileRef = DA577C681998E60B007367ED /* dec.c */; };
@@ -322,6 +324,8 @@
 		AB615302192DA24600A2D8E9 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		ABBE71A518C43B4D00B75E91 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
 		ABBE71A618C43B4D00B75E91 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		D7980AFC1D5ACC4E00D2E6D7 /* SDWebImageDownloader+Authkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDWebImageDownloader+Authkey.h"; sourceTree = "<group>"; };
+		D7980AFD1D5ACC4E00D2E6D7 /* SDWebImageDownloader+Authkey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDWebImageDownloader+Authkey.m"; sourceTree = "<group>"; };
 		DA577C661998E60B007367ED /* alpha_processing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = alpha_processing.c; sourceTree = "<group>"; };
 		DA577C671998E60B007367ED /* cpu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpu.c; sourceTree = "<group>"; };
 		DA577C681998E60B007367ED /* dec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dec.c; sourceTree = "<group>"; };
@@ -550,6 +554,8 @@
 		53922DAB148C56810056699D /* Downloader */ = {
 			isa = PBXGroup;
 			children = (
+				D7980AFC1D5ACC4E00D2E6D7 /* SDWebImageDownloader+Authkey.h */,
+				D7980AFD1D5ACC4E00D2E6D7 /* SDWebImageDownloader+Authkey.m */,
 				53922D8B148C56230056699D /* SDWebImageDownloader.h */,
 				53922D8C148C56230056699D /* SDWebImageDownloader.m */,
 				530E49E316460AE2002868E7 /* SDWebImageDownloaderOperation.h */,
@@ -776,6 +782,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53761316155AD0D5005750A4 /* SDImageCache.h in Headers */,
+				D7980AFE1D5ACC4E00D2E6D7 /* SDWebImageDownloader+Authkey.h in Headers */,
 				5D5B9142188EE8DD006D06BD /* NSData+ImageContentType.h in Headers */,
 				53761318155AD0D5005750A4 /* SDWebImageCompat.h in Headers */,
 				53761319155AD0D5005750A4 /* SDWebImageDecoder.h in Headers */,
@@ -1123,6 +1130,7 @@
 				530E49EC16464C84002868E7 /* SDWebImageDownloaderOperation.m in Sources */,
 				53406750167780C40042B59E /* SDWebImageCompat.m in Sources */,
 				A18A6CC9172DC28500419892 /* UIImage+GIF.m in Sources */,
+				D7980AFF1D5ACC4E00D2E6D7 /* SDWebImageDownloader+Authkey.m in Sources */,
 				AB615306192DA24600A2D8E9 /* UIView+WebCacheOperation.m in Sources */,
 				5D5B9145188EE8DD006D06BD /* NSData+ImageContentType.m in Sources */,
 				53EDFB8C17623F7C00698166 /* UIImage+MultiFormat.m in Sources */,
