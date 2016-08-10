@@ -6,7 +6,6 @@
 //  Copyright © 2016년 Kakao Corp. All rights reserved.
 //
 #import "SDWebImageDownloader+Authkey.h"
-#import "NSUserDefaults+AESEncryptor.h"
 
 @implementation SDWebImageDownloader (Authkey)
 
