@@ -419,7 +419,11 @@ didReceiveResponse:(NSURLResponse *)response
                 // Do not force decoding animated GIFs
                 if (!image.images) {
                     if (self.shouldDecompressImages) {
-                        image = [UIImage decodedImageWithImage:image];
+                        if (image.size.width > 4000 || image.size.height > 4000) {
+                            image = [UIImage decodedAndScaledDownImageWithImage:image];
+                        }else {
+                            image = [UIImage decodedImageWithImage:image];
+                        }
                     }
                 }
                 if (CGSizeEqualToSize(image.size, CGSizeZero)) {
